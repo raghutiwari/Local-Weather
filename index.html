@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Weather Station</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body onload="getLocation()">
+		<div class="container">
+			<div class="row">
+				<div class="heading col-sm-12" align="center">
+					<h1>Get Your Weather</h1>
+				</div>
+			</div>
+			<div class="row">
+			<div class="Image">
+			</div>
+		</div>
+		<div class="row">
+			<div id="weatherType" class="col-sm-12" align="center">
+				
+			</div>	
+		</div>
+		<div class="row">
+			<div id="tempinfo" class="col-sm-12 Max" align="center">
+				<span id="temp"></span><a href="" id="cel"><span class="cel"></span></a>
+			</div>
+		</div>
+			<div class="row">
+			<div id="place" class="col-sm-12" align="center">
+			</div>
+			</div>
+			<div class="row">
+				<div id="weatherTypeImage" class="col-sm-12" align="center">
+
+				</div>
+
+		</div>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

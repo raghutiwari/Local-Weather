@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+  @import url('https://fonts.googleapis.com/css?family=Questrial');
+
+ body{
+ 	font-family: 'Questrial', cursive;
+ 	background-color: black
+ 	;
+ 	color: white;
+ 	font-size: 150%;
+
+ }
+ .container{
+ 	margin-top: 10%;
+ }
+a{
+	text-decoration: none !important;
+	color: rgb(248,152,0);
+}
+a:hover{
+	color: white;
+}
+#weather-icon{
+	margin-left: 2%;
+	margin-bottom: 2%;
+	transition: all 0.5s;
+	width: 8%;
+}
+#weather-icon:hover{
+	width:10%;
+	transition: all 0.5s;
+}
+#temp{
+	transition: all 0.5s;
+ /*These are taken from a Pen(Animated Weather Icons) by Josh Bader*/
+}
+.container{
+	padding: 5%;
+	background-color: white !important;
+	color: black;
+	max-width : 50%;
+	box-shadow: 1px 0px 5px 2px lightgrey;
+}
+
